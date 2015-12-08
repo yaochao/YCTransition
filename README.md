@@ -2,5 +2,5 @@
 ## Usage
 * Drag `UIView+YCTransition.h` and `UIView+YCTransition.m` to your Project
 
-* `[self.navigationController.view addTransition:YCTransitionTypeCurl direction:YCTransitionDirectionBottom duration:0.5];`
+* <pre><code> [self.navigationController.view addTransition:YCTransitionTypeCurl direction:YCTransitionDirectionBottom duration:0.5];</code></pre>
 
