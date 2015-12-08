@@ -10,7 +10,7 @@
 
 @implementation UIView (YCTransition)
 
-- (instancetype)addTransition:(YCTransitionType)transitionType direction:(YCTransitionDirection)directionType duration:(CGFloat)duration {
+- (void)addTransition:(YCTransitionType)transitionType direction:(YCTransitionDirection)directionType duration:(CGFloat)duration {
     
     NSArray *transitionArr = @[
                                @"cameraIris",
@@ -38,8 +38,6 @@
     transition.type = transitionArr[transitionType];
     transition.subtype = directionArr[directionType];
     [self.layer addAnimation:transition forKey:nil];
-    
-    return self;
 }
 
 @end

@@ -33,14 +33,14 @@ typedef NS_ENUM(NSUInteger, YCTransitionDirection)
 {
     YCTransitionDirectionLeft=0, // 从左向右
     YCTransitionDirectionRight,  // 从右向左
-    YCTransitionDirectionTop,    // 从上向下
-    YCTransitionDirectionDown,   // 从下向上
+    YCTransitionDirectionTop,    // 从下向上
+    YCTransitionDirectionBottom, // 从上向下
 };
 
 
 @interface UIView (YCTransition)
 /**
- *  添加专场动画
+ *  添加转场动画
  *
  *  @param transitionType 转场动画类型
  *  @param direction      转场动画方向
@@ -48,6 +48,6 @@ typedef NS_ENUM(NSUInteger, YCTransitionDirection)
  *
  *  @return 返回这个view本身
  */
--(instancetype)addTransition:(YCTransitionType)transitionType direction:(YCTransitionDirection)directionType duration:(CGFloat)duration;
+-(void)addTransition:(YCTransitionType)transitionType direction:(YCTransitionDirection)directionType duration:(CGFloat)duration;
 
 @end
