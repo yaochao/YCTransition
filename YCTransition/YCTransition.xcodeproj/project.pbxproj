@@ -15,6 +15,7 @@
 		D2C738301C16797600AC66C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C7382E1C16797600AC66C1 /* LaunchScreen.storyboard */; };
 		D2C7383B1C16797600AC66C1 /* YCTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C7383A1C16797600AC66C1 /* YCTransitionTests.m */; };
 		D2C738461C16797600AC66C1 /* YCTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C738451C16797600AC66C1 /* YCTransitionUITests.m */; };
+		D2C738561C167AD800AC66C1 /* UIView+YCTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C738551C167AD800AC66C1 /* UIView+YCTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D2C738411C16797600AC66C1 /* YCTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C738451C16797600AC66C1 /* YCTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCTransitionUITests.m; sourceTree = "<group>"; };
 		D2C738471C16797600AC66C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C738541C167AD800AC66C1 /* UIView+YCTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YCTransition.h"; sourceTree = "<group>"; };
+		D2C738551C167AD800AC66C1 /* UIView+YCTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YCTransition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		D2C7381F1C16797600AC66C1 /* YCTransition */ = {
 			isa = PBXGroup;
 			children = (
+				D2C738531C167A1F00AC66C1 /* YCTransition */,
 				D2C738231C16797600AC66C1 /* AppDelegate.h */,
 				D2C738241C16797600AC66C1 /* AppDelegate.m */,
 				D2C738261C16797600AC66C1 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				D2C738471C16797600AC66C1 /* Info.plist */,
 			);
 			path = YCTransitionUITests;
+			sourceTree = "<group>";
+		};
+		D2C738531C167A1F00AC66C1 /* YCTransition */ = {
+			isa = PBXGroup;
+			children = (
+				D2C738541C167AD800AC66C1 /* UIView+YCTransition.h */,
+				D2C738551C167AD800AC66C1 /* UIView+YCTransition.m */,
+			);
+			path = YCTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 				D2C738281C16797600AC66C1 /* ViewController.m in Sources */,
 				D2C738251C16797600AC66C1 /* AppDelegate.m in Sources */,
 				D2C738221C16797600AC66C1 /* main.m in Sources */,
+				D2C738561C167AD800AC66C1 /* UIView+YCTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
