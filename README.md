@@ -9,3 +9,7 @@
 * Call the function `addTransition:::`
 <pre><code> [self.navigationController.view addTransition:YCTransitionTypeCurl direction:YCTransitionDirectionBottom duration:0.5];</code></pre>
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/yaochao/yctransition/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
